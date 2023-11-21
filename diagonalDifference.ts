@@ -34,7 +34,6 @@ function diagonalDifference(arr: number[][]): number {
     // Write your code here
     let firstDiagonal: number = 0;
     let secondDiagonal: number = 0;
-    let diff: number = 0;
     for(let i: number = 0; i < arr.length; i++){
         for(let j: number = 0; j < arr.length; j++){
             if (i==j){
@@ -46,8 +45,6 @@ function diagonalDifference(arr: number[][]): number {
             }
         }
     }
-    console.log("Primeira diagonal", firstDiagonal);
-    console.log("Segunda diagonal", secondDiagonal);
     return Math.abs(firstDiagonal-secondDiagonal);
 }
 
