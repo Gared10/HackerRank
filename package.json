@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "diagonalDifference": "node diagonalDifference.ts"
+    "diagonalDifference": "ts-node diagonalDifference.ts",
+    "plusMinus": "ts-node plusMinus.ts"
   },
   "dependencies": {
     "node": "^21.1.0"
   },
   "devDependencies": {
-    "@types/node": "^20.9.3"
+    "@types/node": "^20.9.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   }
 }
