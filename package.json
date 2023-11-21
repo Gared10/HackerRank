@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "diagonalDifference": "node diagonalDifference.ts"
+  },
+  "dependencies": {
+    "node": "^21.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.3"
+  }
+}
