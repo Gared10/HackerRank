@@ -1,7 +1,8 @@
 {
   "scripts": {
     "diagonalDifference": "ts-node diagonalDifference.ts",
-    "plusMinus": "ts-node plusMinus.ts"
+    "plusMinus": "ts-node plusMinus.ts",
+    "stairCase": "ts-node stairCase.ts"
   },
   "dependencies": {
     "node": "^21.1.0"
